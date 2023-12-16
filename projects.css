@@ -17,6 +17,7 @@ button {
     border-radius: 20px;
     padding: 20px;
     margin: 20px;
+    width: 30%;
 }
 
 .project-manager:hover + .hidden {

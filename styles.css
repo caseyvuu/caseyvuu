@@ -72,8 +72,17 @@ header {
 /* Footer */
 footer {
     margin-top: -11%;
-    margin-left: 6%;
     position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+#link-bar {
+    display: flex;
+    justify-content: space-between;
+    width: 97%;
+    align-items: center;
+    margin: 0 auto;
 }
 
 #links img {

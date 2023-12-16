@@ -71,10 +71,9 @@ header {
 
 /* Footer */
 footer {
-    margin-top: -11%;
     position: fixed;
-    width: 100%;
-    z-index: 1000;
+    bottom: 0;
+    right: 0;
 }
 
 #link-bar {
@@ -110,6 +109,14 @@ footer {
 
     #navigation-bar {
         width: 94%;
+    }
+
+    footer {
+        display: block;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 90%;
     }
 
     #links img {

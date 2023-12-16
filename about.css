@@ -1,0 +1,46 @@
+/* About Page */
+#about-content {
+    margin-left: 4.8%;
+}
+
+#face-and-var {
+    justify-content: center;
+}
+
+#variable-box {
+    margin-left: -100px;
+}
+
+#first-p {
+    margin: 50px auto;
+    width: 50%;
+    line-height: 1.8;
+}
+
+#second-p {
+    margin: 50px auto;
+    width: 50%;
+    line-height: 1.8;
+}
+
+#third-p {
+    margin: 50px auto;
+    width: 50%;
+    line-height: 1.8;
+}
+
+.horizontal-line {
+    width: 70%; 
+    background-color: #9436E1;
+    height: 1px; 
+    margin-top: 50px;
+    margin: 0 auto;
+}
+
+#image {
+    width: 170px;
+    height: 170px;
+    border: 3px solid #9436E1;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}

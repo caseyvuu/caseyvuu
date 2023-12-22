@@ -64,9 +64,27 @@ header {
     background-color: #181818;
 }
 
+#navigation-bar li {
+    padding: 10px;
+    margin: 2px 0;
+}
+
 #navigation-items {
     padding: 10px 20px;
     gap: 20px;
+}
+
+/* Hamburger Menu */
+#nav-toggle div {
+    width: 35px;
+    height: 5px;
+    background-color: dodgerblue;
+    margin: 6px 0;
+}
+
+#nav-toggle {
+    padding: 10px 20px;
+    margin-left: -6%;
 }
 
 /* Footer */
@@ -93,16 +111,6 @@ footer {
     float: right;
 }
 
-/* Larger Resolutions */
-.flex-container {
-    display: flex;
-}
-
-#navigation-items {
-    display: flex;
-}
-/* @media (min-width:900px)
-
 /* Smaller Resolutions */
 @media (max-width: 900px){
     .background {
@@ -111,6 +119,15 @@ footer {
 
     #navigation-bar {
         width: 94%;
+    }
+
+    #little-name,
+    #navigation-items {
+        display: none;
+    }
+
+    #navigation-items.hidden {
+        display: flex;
     }
 
     footer {
@@ -126,5 +143,17 @@ footer {
         height: 5%;
         padding: 10px;
         float: right;
+    }
+}
+
+/* Larger Resolutions */
+@media (min-width: 900px){
+    .flex-container,
+    #navigation-items {
+        display: flex;
+    }
+
+    #nav-toggle {
+        display: none;
     }
 }

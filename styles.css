@@ -19,6 +19,10 @@ a:hover {
     color: dodgerblue;
 }
 
+.big-name {
+    font-size: 50px;
+}
+
 .hidden {
     display: none;
 }
@@ -41,6 +45,10 @@ a:hover {
 
 .white {
     color: white;
+}
+
+.bottom-padding {
+    padding-bottom: 10%;
 }
 
 .shadow {

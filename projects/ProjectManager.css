@@ -1,0 +1,27 @@
+/* Project One */
+h3 {
+    font-size: small;
+    color: dodgerblue;
+}
+
+p {
+    line-height: 1.8;
+    font-size: large;
+}
+
+.head-size {
+    font-size: 200%;
+}
+
+.img-size {
+    width: 90%;
+    height: 60%;
+}
+
+.width {
+    width: 45%;
+}
+
+.center {
+    margin: 0 auto;
+}

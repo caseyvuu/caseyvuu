@@ -47,6 +47,10 @@ a:hover {
     color: white;
 }
 
+.gray {
+    color: #3E3E3E;
+}
+
 .bottom-padding {
     padding-bottom: 10%;
 }

@@ -1,0 +1,1 @@
+1. add the "background" class to sections if something looks wrong

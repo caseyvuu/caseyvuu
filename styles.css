@@ -70,7 +70,7 @@ header {
 #navigation-bar {
     display: flex;
     justify-content:space-between;
-    width: 97%;
+    width: 100%;
     align-items: center;
     margin: 0 auto;
     background-color: #181818;

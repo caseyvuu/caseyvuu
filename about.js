@@ -7,7 +7,7 @@ const getFriends = () => {
         image.src = 'images/friends.png';
     }
     friends.onmouseout = () => {
-        image.src = 'images/a.png';
+        image.src = 'images/intern.png';
     }
 }
 
@@ -18,7 +18,7 @@ const getNature = () => {
         image.src = 'images/nature.png';
     }
     nature.onmouseout = () => {
-        image.src = 'images/a.png';
+        image.src = 'images/intern.png';
     }
 }
 
@@ -29,7 +29,7 @@ const getBeach = () => {
         image.src = 'images/beach.png';
     }
     beach.onmouseout = () => {
-        image.src = 'images/a.png';
+        image.src = 'images/intern.png';
     }
 }
 
@@ -44,7 +44,7 @@ const getSports = () => {
         four.innerHTML = "'SEC FB'";
     }
     sports.onmouseout = () => {
-        image.src = 'images/a.png';
+        image.src = 'images/intern.png';
         one.innerHTML = "'Java'";
         two.innerHTML = "'Javascript'";
         three.innerHTML = "'HTML'";
@@ -63,7 +63,7 @@ const getVideoGames = () => {
         four.innerHTML = "'More...'";
     }
     videogames.onmouseout = () => {
-        image.src = 'images/a.png';
+        image.src = 'images/intern.png';
         one.innerHTML = "'Java'";
         two.innerHTML = "'Javascript'";
         three.innerHTML = "'HTML'";
@@ -78,7 +78,7 @@ const getDC = () => {
         image.src = 'images/batman.png';
     }
     dc.onmouseout = () => {
-        image.src = 'images/a.png';
+        image.src = 'images/intern.png';
     }
 }
 
@@ -89,7 +89,7 @@ const getTennis = () => {
         image.src = 'images/tennis.png';
     }
     tennis.onmouseout = () => {
-        image.src = 'images/a.png';
+        image.src = 'images/intern.png';
     }
 }
 

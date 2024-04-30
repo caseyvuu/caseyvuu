@@ -1,0 +1,10 @@
+/* Resume Page */
+#resume-pic {
+    width: 50%;
+    margin-left: 25%;
+    border: 3px solid dodgerblue;
+}
+
+#resume-link {
+    margin-left: 45%;
+}

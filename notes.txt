@@ -1,1 +1,8 @@
 1. add the "background" class to sections if something looks wrong
+2. bottom-padding is to add space at the end of a page btw
+3. syntax for project section buttons
+    <!-- <section class="style-project">
+                <a href="#"><h2>Project Manager</h2></a>
+                    <p>An applications that allows users to create personalized accounts, manage multiple projects, and organize tasks efficiently within dedicated columns.</p>
+                    <button>Java</button><button>JavaFX</button>
+            </section> -->
